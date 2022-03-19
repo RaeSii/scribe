@@ -20,11 +20,23 @@ app.post("/api/notes",function(req,res){
     db.push(newNote)
    fs.writeFileSync("db/db.json",JSON.stringify(db),function(error){
        if (err)throw error
-   })) 
+   })
     console.log("Add New Note",db);
     res.json(db)
 });
 
+app.delete("/api/notes/:id",function(req,res){
+    let updatedNote = db.filter(element => element.id != req.params.id)
+
+
+
+   db = updatedNote
+   fs.writeFileSync("db/db.json",JSON.stringify(db),function(error){
+       if (err)throw error
+   })
+    console.log("Add New Note",db);
+    res.json(db)
+});
 
 
 
