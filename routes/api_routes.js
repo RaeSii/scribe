@@ -2,14 +2,11 @@ const app = require('express').Router()
 const fs = require('fs')
 let db = require('../db/db.json');
 
-
-
 app.get("/api/notes",function(req,res){
     db = JSON.parse(fs.readFileSync("db/db.json")) || []
     console.log("Display all notes",db);
     res.json(db)
 });
-
 
 app.post("/api/notes",function(req,res){
     let newNote = {
@@ -27,9 +24,7 @@ app.post("/api/notes",function(req,res){
 
 app.delete("/api/notes/:id",function(req,res){
     let updatedNote = db.filter(element => element.id != req.params.id)
-
-
-
+  
    db = updatedNote
    fs.writeFileSync("db/db.json",JSON.stringify(db),function(error){
        if (err)throw error
