@@ -1,8 +1,8 @@
 # Note Taker
 
 ## Deployment
-[Live - GIT](https://raesii.github.io/scribe/)
-[Heroku - App Name: pure-hamlet-23274](https://git.heroku.com/pure-hamlet-23274.git)
+[Live GitHub](https://raesii.github.io/scribe/)
+[Live Heroku](https://pure-hamlet-23274.herokuapp.com/)
 
 ## Requirements
 
