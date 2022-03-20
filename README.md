@@ -47,4 +47,4 @@ JavaScript, JQuery, NodeJS
 Rachel Schaaf
 
 ### Screenshot
-![ReadMe]()
+![ReadMe](https://github.com/RaeSii/scribe/blob/main/public/assets/images/img1.png)
