@@ -1,8 +1,9 @@
 # Note Taker
 
 ## Deployment
-[Live GitHub](https://raesii.github.io/scribe/)
 [Live Heroku](https://pure-hamlet-23274.herokuapp.com/)
+[GitHub Repo](https://github.com/RaeSii/scribe.git)
+
 
 ## Requirements
 
@@ -40,9 +41,10 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
 ### Technology
-JavaScript, Bootstrap, JQuery, NodeJS
+JavaScript, JQuery, NodeJS
 
 ### Coded by
 Rachel Schaaf
 
-### ScreenShot
+### Screenshot
+![ReadMe]()
